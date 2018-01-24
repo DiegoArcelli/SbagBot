@@ -27,5 +27,16 @@ async def on_message(message):
             err = random.randint(int(ris),-int(ris));
         print(err)
         await client.send_message(message.channel,int(ris)+int(err))
+    elif message.content.lower() == "ciao sbag":
+        x = os.popen("wc -l < saluti")
+        n = x.read()
+        num = random.randint(1,int(n))
+        file = open("saluti","r")
+        cont = 0;
+        for line in file:
+            if cont == int(num):
+                await client.send_message(message.channel, line)
+            cont+=1
+        file.close()
             
-client.run('NDA0NjM2NDgwNTM1Nzg5NTg4.DUYvdw.XtucHpd7H7RTsSg9dWvx66JwZ6k')
+client.run('token')
