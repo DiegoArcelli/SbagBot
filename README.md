@@ -5,3 +5,5 @@ Il comando <b>!calc</b> permetterà di eseguire una tra le quattro operazioni ar
 <b>!calc val1 [operatore] val2 [operatore] ... valn</b><br>
 Ovviamente, essendo questo un bot di Bagaglia, i risultati saranno quasi sempre inesatti.<br>
 Scrivendo in chat la stringa <b>ciao sbag</b>, Bagaglia vi risponderà con uno dei suoi soliti saluti, anche se talvolta potrebbero non risultare tali.
+<br><br>
+Versione censurata (quindi praticamente inutile)
